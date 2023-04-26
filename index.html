@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receiptsync</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body class="" style="font-family: poppins;">
+    
+    <!-- navbar -->
+    <nav class="fixed text-white top-0 w-full flex justify-between items-center py-8 sm:py-4 px-5 md:px-10 lg:px-20 backdrop-blur-md ">
+
+        <div>
+            <h3 class="font-bold text-2xl">ReceiptSync</h3>
+        </div>
+
+        <div class="hidden md:block">
+            <ul class="flex gap-10 ">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#feature">Feature</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+        </div>
+
+        <div class="flex gap-10 items-center">
+            <button class="hidden  sm:block px-12 py-3  font-bold rounded-full text-white bg-[#1E2139] hover:bg-[#0C0E16]">Sign In</button>
+            <div class="flex flex-col gap-1.5 block md:hidden">
+                <div class="bg-[#1E2139] w-4 p-0.5 mx-3"></div>
+                <div class="bg-[#1E2139] w-7 p-0.5"></div>
+                <div class="bg-[#1E2139] w-4 p-0.5 mx-1"></div>
+            </div>    
+        </div>
+
+    </nav>
+    
+
+    <!-- home-section -->
+    <section id="home" style="background: linear-gradient(241.6deg, #EC5757 0%, #9277FF 100%);" class=" text-center pt-44 px-5 md:px-10 lg:px-20 py-4 text-white w-full h-screen sm:h-[730px] ">
+        <h1 class="text-3xl md:text-6xl font-bold">Track Sales. Record & Issue Receipts. Manage Products.</h1>
+        <p class="my-10">Use our free sales tracking system to gather and analyze data that helps boost sales performance.</p>
+        <button class="px-12 py-3   rounded-full text-white  bg-[#1E2139] hover:bg-[#0C0E16]">Get Started Now</button>
+
+    </section>
+    <div class="animate__animated animate__slideInLeft animate__delay-2s animate__repeat-2 w-9/12 lg:-mt-48 -mt-28 mx-auto z-10 invisible md:visible">
+        <img src="/asset/hero-image.04ae9d65.svg" alt="">
+    </div>
+
+    <section class=" px-5 md:px-10 lg:px-20">
+        <div class="flex flex-col md:flex-row md:items-center justify-between md:py-14 md:px-12 px-6 py-6 bg-gradient-to-r  from-[#EC5757] to-[#7C5DFA] text-white w-full rounded-xl">
+            <div class="w-full md:w-8/12 md:text-2xl text-xl font-bold">
+                <h3>Looking for where to manage ssales, issue receipts and track your business performance?</h3>
+            </div>
+            <div class="pt-2">
+                <button class="px-8 py-3  rounded-full text-white bg-[#1E2139]">Create Account</button>
+    
+            </div>
+    
+        </div>
+    </section>
+
+    <!--meaning of re-s  -->
+    <section id="about" class="lg:-mb-24 md:py-32 py-0 px-5 md:px-10 lg:px-20 flex-col md:flex-row  flex gap-10 md:justify-between">
+        <div class="md:w-6/12 w-full pt-20">
+            <h1 class="font-bold text-3xl">What is ReceiptSync?</h1>
+            <p class="my-8 text-base md:text-lg">
+                Originally meant for vendors to record receipts, ReceiptSync became a platform where vendors can monitor sales, manage products, store and issue receipts. Our easy-to-use platform allows you monitor your sales to see the best performing products, over the years.
+            </p>
+            <button class="px-8 py-3   rounded-full text-white bg-[#7C5DFA] hover:bg-[#0C0E16]">Meet Our Team</button>
+        </div>
+        <div class="md:w-5/12 w-full sm:-mb-24">
+            <img src="/asset/iphone-14s.d292e5a2.svg" alt="" class="">
+        </div>
+
+    </section>
+
+    <!-- cards -->
+    <section id="feature" class="pb-28">
+        <div class="md:h-[750px] sm:h-[800px] h-[1060px] lg:h-2/5 px-5 md:px-10 lg:px-20 py-40 bg-gradient-to-r from-[#7C5DFA]  to-[#EC5757]">
+            <div class="text-white text-start sm:text-center">
+                <h1 class="font-bold md:text-5xl text-3xl">Receipts Management made easy with these mind-blowing features</h1>
+            </div>
+    
+        </div>
+        
+        <div class=" lg:-mt-24 sm:-mt-[500px] md:-mt-[400px] -mt-[720px] grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  px-5 md:px-10 lg:px-20">
+            <div class="bg-white  sm:py-10 sm:px-6 py-14 px-12 shadow-md text-center rounded-xl flex flex-col gap-5">
+                <img src="/asset/receipt-item.png" alt="" class="mx-auto w-12">
+                <h3 class="font-bold text-2xl">Receipts Sharing</h3>
+                <p>Share receipts to customers, with an attached key. Only authorized users can access receipt document.</p>
+            </div>
+            <div class="bg-white sm:py-10 sm:px-6 py-14 px-12 shadow-md text-center rounded-xl flex flex-col gap-5">
+                <img src="/asset/receipt-item.png" alt="" class="mx-auto w-12">
+                <h3 class="font-bold text-2xl">Products Inventory</h3>
+                <p>Add, Edit & Delete products. Keep track of the products you have, and delete when necessary</p>
+            </div>
+            <div class="bg-white sm:py-10 sm:px-6 py-14 px-12 shadow-md text-center rounded-xl flex flex-col gap-5">
+                <img src="/asset/Mask group.png" alt="" class="mx-auto w-12">
+                <h3 class="font-bold text-2xl">Insights & Charts</h3>
+                <p>Inspect products sales over years with our easy-to-use insights charts. Know which product performs best.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- team -->
+    <section id="team" class="bg-[#F6F6F6] px-5 md:px-10 lg:px-20 py-20 flex flex-col gap-6">
+        <h1 class="font-bold text-3xl">project Team.</h1>
+        <p>Awesome developers that made this project a reality. </p>
+
+        <div class="flex flex-col md:flex-row gap-10">
+            <div class="w-80 rounded-lg bg-white overflow-hidden">
+                <img src="/asset/john-godwin.webp" alt="" class="">
+                <div class="px-6 py-10">
+                    <h3 class="text-[#7C5DFA] font-bold text-2xl">John Godwin</h3>
+                    <h4 class="font-bold text-lg mb-4">Backend Developer</h4>
+                    <p>I worked with NodeJS, Amazon S3 bucket, TypeScript and other services to deliver data and collaborating with the frontend developer to make sure the frontend and backend work seamlessly together.            </p>
+    
+                </div>
+            </div>
+            <div class="w-80 rounded-lg bg-white overflow-hidden">
+                <img src="/asset/isaiah-ernest-ovie.webp" alt="">
+                <div class="px-6 py-10">
+                    <h3 class="text-[#7C5DFA] font-bold text-2xl">Isaiah Ernest</h3>
+                    <h4 class="font-bold text-lg mb-4">Frontend Developer</h4>
+                    <p>Using TailwindCSS, NextJS, MaterialUI & Figma. I designed and developed the landing page, made the Vendor dashboard, Insights and charts, I also refactored the state management from Context API to Redux,etc.</p>    
+                </div>
+            </div>
+    
+        </div>
+
+    </section>
+
+
+    <section class=" px-5 md:px-10 lg:px-20 bg-white py-10">
+        <div class="flex flex-col md:flex-row md:items-center justify-between md:py-10 md:px-12 px-6 py-6 bg-gradient-to-r from-[#7C5DFA] to-[#EC5757]  text-white w-full rounded-xl">
+            <div class="w-full md:w-8/12 md:text-3xl text-xl font-bold">
+                <h3>Getting Started is Easy</h3>
+            </div>
+            <div class="pt-2">
+                <button class="px-8 py-3  rounded-full text-white bg-[#1E2139]">Get Started Now</button>
+    
+            </div>
+    
+        </div>
+    </section>
+
+<!-- footer -->
+<section class="bg-[#F6F6F6] px-5 md:px-10 lg:px-20 py-20 flex flex-col gap-10 text-[#1E2139]">
+
+    <div class="flex flex-col sm:flex-row gap-6 sm:justify-between  w-2/3">
+        <div class="w-6/12">
+            <h2 class="font-bold text-3xl mb-4">ReceiptSync</h2>
+            <p>Manage products, store and issue receipts, monitor your sales to see the best performing products.</p>
+        </div>
+        <div class="w-3/12 flex flex-col gap-4 ">
+            <h2 class="font-bold text-3xl">Quick Links</h2>
+            <a href="#home" class="hover:font-medium">Home</a>
+            <a href="#about" class="hover:font-medium">About</a>
+            <a href="#feature" class="hover:font-medium">Feature</a>
+            <a href="#team" class="hover:font-medium">Team</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>© Copyright 2023, All rights reserved by ReceiptSync</p>
+    </div>
+</section>
+</body>
+</html>
